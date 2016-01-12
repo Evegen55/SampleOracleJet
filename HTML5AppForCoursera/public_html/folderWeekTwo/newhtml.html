@@ -10,12 +10,46 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        
+        <!--Load a script-->
         <script src = "../js/myscript.js"> </script>
+        
+        
+        
     </head>
-    <body>
+    
+    <body onload="message('LOAD')" 
+          onresize="message('RESIZE')">
+        
         <div>
-            <span id = "date"> </span>
-            <script> setDate();</script>
+            
+            <!--This is a simple function example-->
+            <p>
+                <!--This is an local id, function will exec in this place-->
+                <span id = "date"> </span>
+                <script> setDate();</script>
+            </p>
+            
+            <!--This is a simple event example with running the function and set with the CSS -->
+            <h1>
+                JavaScript Events - Responding to Events
+            </h1>
+            
+            <p onclick="message('CLICK')">
+                It is possible to call functions based on Events
+            </p>
+            
+            <p>
+                Click on the paragraph above to trigger an <em>onclick</em> event.  
+                Reload the page to see an onload event
+            </p>
+            
+            <!--This is an local id, function will print output in this place-->
+            <h1 id = "output"></h1>
+            
         </div>
+        
     </body>
 </html>

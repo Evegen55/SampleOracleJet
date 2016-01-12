@@ -7,4 +7,8 @@
 function setDate(){
                 document.getElementById('date').innerHTML=Date();
             }
+            
+function message(msg){
+  		document.getElementById('output').innerHTML = msg + " event";
+	    }
 

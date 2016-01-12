@@ -132,6 +132,9 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    
+    color: orange;
+    text-align: center;
 }
 
 h2 {
@@ -215,6 +218,9 @@ mark {
 p,
 pre {
     margin: 1em 0;
+    
+   font-family: "Times New Roman";
+    font-size: 20px;
 }
 
 /**
