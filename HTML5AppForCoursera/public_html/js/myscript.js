@@ -5,6 +5,7 @@
  */
 
 function setDate(){
+    //method getElementById UPDATE element which was got by id
     document.getElementById('date').innerHTML=Date();
     }
             
