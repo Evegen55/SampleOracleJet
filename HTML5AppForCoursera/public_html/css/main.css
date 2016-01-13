@@ -93,6 +93,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#demo{
+  		color:white;
+			background-color: #7F7F7F;
+      padding:10px;
+      font-size:120%
+}
+.closed{
+		display: none;
+}
+.open{
+		display: block;
+}
 
 
 

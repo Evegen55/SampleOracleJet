@@ -223,6 +223,12 @@ pre {
     font-size: 20px;
 }
 
+p {
+    border:2px solid black;
+    margin: 20px;
+    width:250px;
+}
+
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
@@ -415,6 +421,7 @@ textarea {
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
+
 }
 
 /**
@@ -465,6 +472,13 @@ input[type="submit"] {
 button[disabled],
 html input[disabled] {
     cursor: default;
+}
+
+button {
+    width:150px;
+    background-color: #00CCEE;
+    margin-left:15px;
+    font-size:120%;
 }
 
 /**
