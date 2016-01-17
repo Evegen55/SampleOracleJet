@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        
+        <!--Load a script-->
+        <script src = "../js/myscript.js"> </script>
+        
+        
+        
+    </head>
+    
+    <body onload="message('LOAD')" 
+          onresize="message('RESIZE')">
+        
+        <div>
+            
+            <h1>Modify the DOM</h1>
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked Another Button';">Third</button>
+            <p>This code shouldn't change.</p>
+            <p id="stuff">This will change.</p>
+            <p>This shouldn't change either.</p>
+            
+            
+            <h1>Changing the Style</h1>
+            <p>JavaScript can change the style of an HTML element.</p>
+            <button type="button" onclick="openMe()">Open!</button>
+            
+            <button type="button" onclick="closeMe()">Close!</button>
+            
+            <p id="demo">Extra details...You can open and close this paragraph using the buttons above.</p>
+            
+        </div>
+        
+    </body>
+</html>
