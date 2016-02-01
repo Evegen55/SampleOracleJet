@@ -29,4 +29,14 @@ function unDo(){
      document.getElementById('image').style.backgroundImage = "url('')";
      document.getElementById('image').innerHTML = "Hover over an image below to display here";
  }
+ 
+ function getElem(previewPic){
+   var images = document.getElementsByClassName('preview');
+   document.writeln(images.length);
+}
+
+ function getElemByNumber(previewPic){
+   var images = document.getElementsByClassName('preview');
+   document.writeln(images[0]);
+}
 
