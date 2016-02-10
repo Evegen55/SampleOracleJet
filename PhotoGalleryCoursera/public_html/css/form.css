@@ -10,4 +10,14 @@ and open the template in the editor.
 
 label{
   display:block;
+  
+}
+input {
+  position:absolute;
+  left:200px;
+  width:75px;
+}
+input[type=submit]{
+  top:345px;
+  left:10px;
 }

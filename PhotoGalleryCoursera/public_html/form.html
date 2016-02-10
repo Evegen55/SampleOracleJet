@@ -47,6 +47,14 @@ and open the template in the editor.
                 
                 <label>URL: <input type="url" name="urlInput"></label>
                 
+                zip code with pattern:
+                
+                <input type="text" name="zip_codeP" pattern="[0-9]{5}" required><br/>
+                
+                zip code with numbers: 
+                
+                <input type="number" name="zip_codeN" min ="00000" max = "99999" required><br/>
+                
                 <input type = 'submit' value = "Click Here">
                 
             </fieldset>
