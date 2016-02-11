@@ -18,6 +18,12 @@ input {
   width:75px;
 }
 input[type=submit]{
-  top:345px;
-  left:10px;
+  
+  left:300px;
 }
+
+#nick{
+    margin-left: 4%;
+    display:none;
+    width: 50%;
+    }
